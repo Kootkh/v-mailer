@@ -1,0 +1,31 @@
+---
+test: 'test_def'
+app-config:
+  smtp-port: 587
+  smtp-domain: 'yaml.localhost'
+  log-level: 'info'
+  log-style: 'json'
+  log-file: './log/v-mailer.log'
+  verify-cert: true
+  ssl: true
+  smtp-auth:
+    username: 'username.yaml'
+    password: 'password.yaml'
+message-config:
+  charset: 'utf-8'
+  from: 'noreply@default.yaml'
+  subject: 'Всё пропало. Клиент начал что-то подозревать. Высылайте аспирин в тюбиках!'
+  default-recipients: 'default_recipient1@default.yaml, default_recipient2@default.yaml'
+#--host="отправьте-пожалуйста.куда-нибудь.ауф"
+#--name="pirozhok"
+#--from="bober@kurwa.ауф"
+#--fake-from="unicorn@kurwa.ауф"
+#--to="victim@сhet.tam.chto-to"
+#--to="ещё-одна-жертва@сhet.tam.chto-to"
+#--body="body-positive kurwa!"
+#--attach="/паф/ту/филе"
+#--attach="/овер/паф/ту/овер/филе"
+#--charset="ЮТИФИ-ЭЙТ"
+#--contentType="text/html"
+#--encoding="узелковая-письменность"
+#--c-encoding="буквосочетание"

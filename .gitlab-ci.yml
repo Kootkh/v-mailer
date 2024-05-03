@@ -1,0 +1,36 @@
+---
+stages:
+  - build
+  - deploy
+
+before_script:
+  - docker login -u gitlab-ci-token -p {$CI_JOB_TOKEN} {$CI_REGISTRY}
+
+after_script:
+  - docker logout {$CI_REGISTRY}
+
+.extend-tags:
+  tags:
+    - docker
+    - shared
+
+build:
+  stage: build
+  extends:
+    - .extend-tags
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  script:
+    - docker build -f Dockerfile -t {$CI_REGISTRY_IMAGE}:{$CI_COMMIT_SHA:0:8} .
+    - docker tag {$CI_REGISTRY_IMAGE}:{$CI_COMMIT_SHA:0:8} {$CI_REGISTRY_IMAGE}:latest
+    - docker push {$CI_REGISTRY_IMAGE}:latest
+
+deploy:
+  stage: deploy
+  before_script:
+    - command -v ssh-agent >/dev/null 2>&1
+    - eval "$(ssh-agent -s)"
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config

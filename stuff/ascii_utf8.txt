@@ -1,0 +1,168 @@
+			" ",	// \x20		32				Space
+			"\"",	// \x22		34		"		Double quotes (or speech marks)
+			"\t",	// \x09		09				Tab
+			"\n",	// \x0A		10				Line feed
+			"\r",	// \x0D		13				Carriage return
+			"~",	// \x7E		126		~		tilde
+			"!",	// \x21		33		!		Exclamation mark
+			"@",	// \x40		64		@		At sign
+			"#",	// \x23		35		#		Number sign
+			"$",	// \x24		36		$		Dollar
+			"%",	// \x25		37		%		Per cent sign
+			"^",	// \x5E		94		^		Caret
+			"&",	// \x26		38		&		Ampersand
+			"*",	// \x2A		42		*		Asterisk
+			"(",	// \x28		40		(		Open parenthesis (or open bracket)
+			")",	// \x29		41		)		Close parenthesis (or close bracket)
+			"+",	// \x2B		43		+		Plus
+			"{",	// \x7B		123		{		Curly brace (or left brace)
+			"}",	// \x7D		125		}		Curly brace (or right brace)
+			"?",	// \x3F		63		?		Question mark
+			"\\",	// \x5C		92		\		Backslash
+			"|",	// \x7C		124		|		Vertical bar (Pipe)
+			":",	// \x3A		58		:		Colon
+			";",	// \x3B		59		;		Semicolon
+			"'",	// \x27		39		'		Single quote
+			"’",	// \x2019	39		’		Single quote
+			"`",	// \x60		96		`		Back96 `	Grave accent
+			",",	// \x2C		44		,		Comma
+			".",	// \x2E		46		.		Period, dot or full stop
+			"/",	// \x2F		47		/		Slash or divide
+			"-",	// \x2D		45		-		Hyphen-minus
+			"_",	// \x5F		95		_		Underscore
+			"<",	// \x3C		60		<		Less than (or open angled bracket)
+			">",	// \x3E		62		>		Greater than (or close angled bracket)
+			"=",	// \x3D		61		=		Equals
+			"№",	// \x2126	872		№		Number sign
+
+			"A",	// \x41		65		A		A
+			"B",	// \x42		66		B		B
+			"C",	// \x43		67		C		C
+			"D",	// \x44		68		D		D
+			"E",	// \x45		69		E		E
+			"F",	// \x46		70		F		F
+			"G",	// \x47		71		G		G
+			"H",	// \x48		72		H		H
+			"I",	// \x49		73		I		I
+			"J",	// \x4A		74		J		J
+			"K",	// \x4B		75		K		K
+			"L",	// \x4C		76		L		L
+			"M",	// \x4D		77		M		M
+			"N",	// \x4E		78		N		N
+			"O",	// \x4F		79		O		O
+			"P",	// \x50		80		P		P
+			"Q",	// \x51		81		Q		Q
+			"R",	// \x52		82		R		R
+			"S",	// \x53		83		S		S
+			"T",	// \x54		84		T		T
+			"U",	// \x55		85		U		U
+			"V",	// \x56		86		V		V
+			"W",	// \x57		87		W		W
+			"X",	// \x58		88		X		X
+			"Y",	// \x59		89		Y		Y
+			"Z",	// \x5A		90		Z		Z
+			"a",	// \x61		97		a		a
+			"b",	// \x62		98		b		b
+			"c",	// \x63		99		c		c
+			"d",	// \x64		100		d		d
+			"e",	// \x65		101		e		e
+			"f",	// \x66		102		f		f
+			"g",	// \x67		103		g		g
+			"h",	// \x68		104		h		h
+			"i",	// \x69		105		i		i
+			"j",	// \x6A		106		j		j
+			"k",	// \x6B		107		k		k
+			"l",	// \x6C		108		l		l
+			"m",	// \x6D		109		m		m
+			"n",	// \x6E		110		n		n
+			"o",	// \x6F		111		o		o
+			"p",	// \x70		112		p		p
+			"q",	// \x71		113		q		q
+			"r",	// \x72		114		r		r
+			"s",	// \x73		115		s		s
+			"t",	// \x74		116		t		t
+			"u",	// \x75		117		u		u
+			"v",	// \x76		118		v		v
+			"w",	// \x77		119		w		w
+			"x",	// \x78		120		x		x
+			"y",	// \x79		121		y		y
+			"z",	// \x7A		122		z		z
+			"А",	// \xC0		192		А		A
+			"Б",	// \xC1		193		Б		B
+			"В",	// \xC2		194		В		V
+			"Г",	// \xC3		195		Г		G
+			"Д",	// \xC4		196		Д		D
+			"Е",	// \xC5		197		Е		E
+			"Ё",	// \x 		240		Ё		Yo
+			"Ж",	// \xC6		198		Ж		J
+			"З",	// \xC7		199		З		Z
+			"И",	// \xC8		200		И		I
+			"І",	// \xC9		201		І		I
+			"Ј",	// \xCA		202		Ј		J
+			"К",	// \xCB		203		К		K
+			"Л",	// \xCC		204		Л		L
+			"М",	// \xCD		205		М		M
+			"Н",	// \xCE		206		Н		N
+			"О",	// \xCF		207		О		O
+			"П",	// \xD0		208		П		P
+			"Р",	// \xD1		209		Р		R
+			"С",	// \xD2		210		С		S
+			"Т",	// \xD3		211		Т		T
+			"У",	// \xD4		212		У		U
+			"Ф",	// \xD5		213		Ф		F
+			"Х",	// \xD6		214		Х		H
+			"Ц",	// \xD7		215		Ц		C
+			"Ч",	// \xD8		216		Ч		Ch
+			"Ш",	// \xD9		217		Ш		Sh
+			"Щ",	// \xDA		218		Щ		Sh
+			"Ъ",	// \xDB		219		Ъ		`
+			"Ы",	// \xDC		220		Ы		Y
+			"Ь",	// \xDD		221		Ь		'
+			"Э",	// \xDE		222		Э		E
+			"Ю",	// \xDF		223		Ю		Yu
+			"Я",	// \xE0		224		Я		Ya
+			"а",	// \xE1		225		а		a
+			"б",	// \xE2		226		б		b
+			"в",	// \xE3		227		в		v
+			"г",	// \xE4		228		г		g
+			"д",	// \xE5		229		д		d
+			"е",	// \xE6		230		е		e
+			"є",	// \xE7		231		є		ye
+			"ж",	// \xE8		232		ж		zh
+			"з",	// \xE9		233		з		z
+			"и",	// \xEA		234		и		i
+			"і",	// \xEB		235		і		i
+			"ј",	// \xEC		236		ј		j
+			"к",	// \xED		237		к		k
+			"л",	// \xEE		238		л		l
+			"м",	// \xEF		239		м		m
+			"н",	// \xF0		240		н		n
+			"о",	// \xF1		241		о		o
+			"п",	// \xF2		242		п		p
+			"р",	// \xF3		243		р		r
+			"с",	// \xF4		244		с		s
+			"т",	// \xF5		245		т		t
+			"у",	// \xF6		246		у		u
+			"ф",	// \xF7		247		ф		f
+			"х",	// \xF8		248		х		h
+			"ц",	// \xF9		249		ц		c
+			"ч",	// \xFA		250		ч		ch
+			"ш",	// \xFB		251		ш		sh
+			"щ",	// \xFC		252		щ		sh
+			"ъ",	// \xFD		253		ъ		`
+			"ы",	// \xFE		254		ы		y
+			"ь",	// \xFF		255		ь		'
+			"э",	// \x80		128		э		e
+			"ю",	// \x81		129		ю		yu
+			"я",	// \x82		130		я		ya
+
+			\x30	// 48 0	Zero
+			\x31	// 49 1	One
+			\x32	// 50 2	Two
+			\x33	// 51 3	Three
+			\x34	// 52 4	Four
+			\x35	// 53 5	Five
+			\x36	// 54 6	Six
+			\x37	// 55 7	Seven
+			\x38	// 56 8	Eight
+			\x39	// 57 9	Nine

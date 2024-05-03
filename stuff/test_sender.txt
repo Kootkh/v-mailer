@@ -1,0 +1,18 @@
+// Good examples:
+test_sender1@localhost.com
+test_sender1@localhost.com, Васо
+test_sender1@localhost.com, Васо Пупкинадзе
+test_sender1@localhost.com, Васо Пупкинадзе ;
+
+
+// Bad examples:
+test_sender1@localhost.com, Васо Пупкинадзе ;
+test_sender1@localhost.com, test_sender2@localhost.com
+test_sender1@localhost.com, Васо test_sender2@localhost.com Пупкинадзе
+test_sender1@localhost.com, Васо Пупкинадзе , test_sender2@localhost.com
+test_sender1@localhost.com, Васо Пупкинадзе , test_sender2@localhost.com, Васо Пупкинадзе
+test_sender1@localhost.com, Васо Пупкинадзе ;
+test_sender1@localhost.com; Васо Пупкинадзе
+test_sender1@localhost.com; Васо; Пупкинадзе
+Васо Пупкинадзе, test_sender1@localhost.com
+Васо, test_sender1@localhost.com
